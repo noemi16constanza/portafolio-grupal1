@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="x.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+     
+    <nav class="encabezado">
+
+        <div class="encabezado">
+            <img src="img.port/fright_and_delights_purple_background.png" class="grupo">
+            <h1>Frightt And Delights</h1>
+        </div>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Sobre el grupo</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Imágenes con Links -->
+
+    <div class="portfolio">
+        <span class="flex">
+            <a href="">
+                <img src="img.port/logo tahia.jpg" alt="portafolio tahia">
+            </a> 
+        </span>
+        
+        <span class="flex">
+            <a href="https://noemi16constanza.github.io/portafolio-feria2/">
+                <img src="img.port/IMG-20240825-WA0002 (1).jpg" alt="portafolio cony">
+            </a>
+        </span>
+        
+        <span class="flex">
+            <a href="">
+                <img src="img.port/logo lore.jpg" alt="portafolio lore">
+            </a>
+        </span>
+
+        <span class="flex"></span>
+            <a href="">
+                <img src="img.port/logo eyner.jpg" alt="portafolio eyner">
+            </a>
+        </span>
+    </div>
+
+    <!-- Sección de Texto -->
+    <div class="info-section">
+        <div class="text-box">
+            <p>Aqui les mostramos nuestra pagina web que hicimos en educacion ciudadana.</p>
+            <a href="https://wkl0ree.github.io/Pagina-web-zona-de-sacrificio/">Zona de sacrificio</a>
+        </div>
+        <div class="text-box">
+            <h2>Descripcion del grupo</h2>
+            <p>Nuestro grupo esta compuesto por: Tahia Teran, Constanza Tores, Loreto Vargas
+               y Eyner Valdes, y nosotros decidimos que nuestra pagina web fuera de hallowen 
+               como la feria iba a ser el 30 de octubre decidimos hacerla sobre eso. Entonces
+               el tema de nuestra pagina web es de la ventas de productos para hallowen como: 
+               disfraces, mascaras, dulces, pasteles, tortas. Y decoraciones como las telarañas,
+               calavazas decoradas, esqueletos, fantasmas, murciélagos, calaveras</p>
+        </div>
+    </div>
+
+    <section class="services formulario">
+        <h2 class="Formulario">Formulario de Contacto</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar" class="button
+            ">
+        </form>
+    </section>
+<script src="x.js"></script>
+</body>
+</html>

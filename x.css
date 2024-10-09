@@ -1,0 +1,128 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img.port/fondo-plano-pastel-halloween_23-2149629555.jpg);
+    margin: 16px;
+    width: 97%;
+}
+
+/* Barra de navegación */
+nav {
+    background:#775994;;
+    padding: 30px;
+    height: 60px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.grupo{
+    width: 100px
+}
+
+.flex{
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #d68112;
+}
+
+/* Sección de imágenes */
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.portfolio a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border: 4px solid #ffffff;
+}
+
+.portfolio a img:hover {
+    transform: scale(1.1);
+}
+
+/* Sección de texto */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.text-box {
+    width: 40%;
+    padding: 40px;
+    background-color: ;
+    border-radius: 60px;
+    color: white;
+    background: rgb(70,40,78);
+    background: linear-gradient(90deg, rgba(70,40,78,0.7203256302521008) 0%, rgba(78,5,145,0.5018382352941176) 0%);
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.services {
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+    
+}
+
+.formulario{
+    margin-top: 50px;
+    color: #000000;
+}
+
+.button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo{
+    
+}
